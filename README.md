@@ -1,3 +1,6 @@
+# Lyrical Exercise
+## A Data Science Project by Eric Nadasi
+
 ### Inspiration:
 I have loved music my entire life, and am always on the look for new songs. While using Spotify one day, I became curious as to why song recommenders (not just Spotify's, also others such as Apple's and Pandora's) only focus on the melody, genre, or general sound of the song you are listening to in order to suggest the next song. In my opinion, the music that people connect to at the deepest level has meaningful lyrics that resonate with the listener, and a successful recommender should include songs with similar lyrical topics, so I created a model with Natural Language Processing that would do just that.
 
