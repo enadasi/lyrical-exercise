@@ -37,7 +37,7 @@ __Results__:
 
 Fork the repository, and then clone it to your local machine. You should now have a repository named "lyrical-exercise" on your computer. <br>
 
-All necessary data files but two are in the repository, in the ```data``` folder. Follow the steps below to get the remaining two files (You only need to do this once!) <br>
+All necessary data files but two are in the repository, in the ```data``` folder. Follow the steps below to get the remaining two files (You only need to do this once!). <br>
 
 ### How to get the remaining two files: 
 
