@@ -33,7 +33,9 @@ _____________________________
 ## 3. Instructions for Running Program
 __________________________________________
 Fork the repository, and then clone it to your local machine. You should now have a repository named "lyrical-exercise" on your computer. <br>
+
 All necessary data files but two are in the repository, in the "data" folder. Follow the steps below to get the remaining two files (You only need to do this once!) <br>
+
 ### How to get the remaining two files: 
 
 1. __mxm_779k_matches.txt__:
@@ -45,6 +47,24 @@ All necessary data files but two are in the repository, in the "data" folder. Fo
     - Click on this link for the test set: http://labrosa.ee.columbia.edu/millionsong/sites/default/files/AdditionalFiles/mxm_dataset_test.txt.zip
     - Remove headers with the # symbols at the start of lines, just leaving data in the text file, and copy paste the test set into the train set text file, appending it directly to the bottom of the file
     - Rename the combined file to ```mxm_dataset_FULL.txt```, and insert the file into the "data" folder in the repository
+    
+### Choose Preferred Genre:
+Go to Line 22 of "Process.py," and change the global variable FILTER_GENRE to equal any of the following genres (default: Rap): 
+- Blues
+- Country
+- Electronic
+- Folk
+- Jazz
+- Latin
+- Metal
+- New Age
+- Pop
+- Punk
+- Rap
+- Reggae
+- RnB
+- Rock
+- World
 
 ### Run the program:
 - Enter the lyrical-exercise folder from the terminal (using 'cd' command), and enter the command ```python lyrical-exercise.py```
@@ -52,4 +72,4 @@ All necessary data files but two are in the repository, in the "data" folder. Fo
 
 ### Check the Results:
 - __Topic Modeling__: After running the program, check the "results" folder for a file named "topic_words.txt", which has all of the lyrics organized by latent topic
-- __Similar Song Recommender__: This runs in the terminal until you exit! 
+- __Similar Song Recommender__: This runs in the terminal until you exit
