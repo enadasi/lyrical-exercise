@@ -43,8 +43,8 @@ All necessary data files but two are in the repository, in the ```data``` folder
 
 1. __mxm_779k_matches.txt__:
     - Click on this link: http://labrosa.ee.columbia.edu/millionsong/sites/default/files/AdditionalFiles/mxm_779k_matches.txt.zip
-    - Name the file ```mxm_779k_matches.txt```, and insert the file into the ```data``` folder in the repository
     - Remove the header with the ```#``` symbols at the start of lines, just leaving data in text file
+    - Name the file ```mxm_779k_matches.txt```, and insert the file into the ```data``` folder in the repository
 2. __mxm_dataset_FULL.txt__:
     - Click on this link for the train set: http://labrosa.ee.columbia.edu/millionsong/sites/default/files/AdditionalFiles/mxm_dataset_train.txt.zip
     - Click on this link for the test set: http://labrosa.ee.columbia.edu/millionsong/sites/default/files/AdditionalFiles/mxm_dataset_test.txt.zip
