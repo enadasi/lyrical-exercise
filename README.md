@@ -1,11 +1,11 @@
 # Lyrical Exercise
-## A Data Science Project by Eric Nadasi
+### A Data Science Project by Eric Nadasi
+___________________________
 
 ### Inspiration:
 I have loved music my entire life, and am always on the look for new songs. While using Spotify one day, I became curious as to why song recommenders (not just Spotify's, also others such as Apple's and Pandora's) only focus on the melody, genre, or general sound of the song you are listening to in order to suggest the next song. In my opinion, the music that people connect to at the deepest level has meaningful lyrics that resonate with the listener, and a successful recommender should include songs with similar lyrical topics, so I created a model with Natural Language Processing that would do just that.
 
 ## 1. Project Overview
-_____________________________
 
 __Goals__:
 - To analyze topics in popular music through the unsupervised learning of topic modeling
@@ -24,7 +24,7 @@ __Results__:
 - Similar song program successfully shows user other songs of similar lyrics and themes (we can't quantify the accuracy of unsupervised learning, but check it out for yourself!)
 
 ## 2. Method Descriptions
-_____________________________
+
 - Coded in Python using several different packages and technologies, including: Jupyter Notebook, NumPy, Pandas, SciPy, NLTK (Natural Language Toolkit), Gensim, and Scikit Learn
 - __Algorithms__:
     - Gensim was used to calculate Term Frequency - Inverse Document Frequency (TF-IDF) model vectors for all songs with lyrics data
@@ -34,7 +34,7 @@ _____________________________
     - Cosine similarity metric from Scikit Learn used to identify lyrically similar songs, also based on TF-IDF
 
 ## 3. Instructions for Running Program
-__________________________________________
+
 Fork the repository, and then clone it to your local machine. You should now have a repository named "lyrical-exercise" on your computer. <br>
 
 All necessary data files but two are in the repository, in the ```data``` folder. Follow the steps below to get the remaining two files (You only need to do this once!) <br>
