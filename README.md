@@ -74,5 +74,5 @@ Go to Line 22 of ```Process.py``` and change the global variable ```FILTER_GENRE
 - Follow along with the prompts in the terminal to choose program inputs
 
 ### Check the Results:
-- __Topic Modeling__: After running the program, check the ```results``` folder in the respository for a file named ```topic_words.txt```, which has all of the lyrics organized by latent topic
+- __Topic Modeling__: After running the program, check the respository for a file named ```topic_words.txt```, which has all of the lyrics organized by latent topic
 - __Similar Song Recommender__: This runs in the terminal until you exit
