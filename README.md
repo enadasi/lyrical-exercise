@@ -37,22 +37,22 @@ _____________________________
 __________________________________________
 Fork the repository, and then clone it to your local machine. You should now have a repository named "lyrical-exercise" on your computer. <br>
 
-All necessary data files but two are in the repository, in the "data" folder. Follow the steps below to get the remaining two files (You only need to do this once!) <br>
+All necessary data files but two are in the repository, in the ```data``` folder. Follow the steps below to get the remaining two files (You only need to do this once!) <br>
 
 ### How to get the remaining two files: 
 
 1. __mxm_779k_matches.txt__:
     - Click on this link: http://labrosa.ee.columbia.edu/millionsong/sites/default/files/AdditionalFiles/mxm_779k_matches.txt.zip
-    - Name the file ```mxm_779k_matches.txt```, and insert the file into the "data" folder in the repository
-    - Remove the header with the # symbols at the start of lines, just leaving data in text file
+    - Name the file ```mxm_779k_matches.txt```, and insert the file into the ```data``` folder in the repository
+    - Remove the header with the ```#``` symbols at the start of lines, just leaving data in text file
 2. __mxm_dataset_FULL.txt__:
     - Click on this link for the train set: http://labrosa.ee.columbia.edu/millionsong/sites/default/files/AdditionalFiles/mxm_dataset_train.txt.zip
     - Click on this link for the test set: http://labrosa.ee.columbia.edu/millionsong/sites/default/files/AdditionalFiles/mxm_dataset_test.txt.zip
-    - Remove headers with the # symbols at the start of lines, just leaving data in the text file, and copy paste the test set into the train set text file, appending it directly to the bottom of the file
-    - Rename the combined file to ```mxm_dataset_FULL.txt```, and insert the file into the "data" folder in the repository
+    - Remove headers with the ```#``` symbols at the start of lines, just leaving data in the text file, and copy paste the test set into the train set text file, appending it directly to the bottom of the file
+    - Rename the combined file to ```mxm_dataset_FULL.txt```, and insert the file into the ```data``` folder in the repository
     
 ### Choose Preferred Genre:
-Go to Line 22 of "Process.py," and change the global variable FILTER_GENRE to equal any of the following genres (default: Rap): 
+Go to Line 22 of ```Process.py``` and change the global variable ```FILTER_GENRE``` to equal any of the following genres (default: ```Rap```): 
 - Blues
 - Country
 - Electronic
@@ -70,9 +70,9 @@ Go to Line 22 of "Process.py," and change the global variable FILTER_GENRE to eq
 - World
 
 ### Run the program:
-- Enter the lyrical-exercise folder from the terminal (using 'cd' command), and enter the command ```python lyrical-exercise.py```
+- Enter the lyrical-exercise folder from the terminal (using ```cd``` command), and enter the command ```python lyrical-exercise.py```
 - Follow along with the prompts to choose preferred genre, target song, and more
 
 ### Check the Results:
-- __Topic Modeling__: After running the program, check the "results" folder for a file named "topic_words.txt", which has all of the lyrics organized by latent topic
+- __Topic Modeling__: After running the program, check the ```results``` folder in the respository for a file named ```topic_words.txt```, which has all of the lyrics organized by latent topic
 - __Similar Song Recommender__: This runs in the terminal until you exit
